@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: #ddd;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+}
+
+.services-preview {
+    padding: 2rem;
+    text-align: center;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.service-card {
+    background-color: #111;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
